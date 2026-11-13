@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-order-bot",
+  "version": "1.0.0",
+  "description": "Self-hosted WhatsApp chatbot that takes orders (items + quantities) and saves them to an Excel spreadsheet.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node src/simulate.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "exceljs": "4.4.0",
+    "pino": "10.4.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
