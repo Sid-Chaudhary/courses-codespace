@@ -1,0 +1,10 @@
+{
+  "businessName": "My Shop",
+  "ownerNumber": "",
+  "currency": "₹",
+  "itemsFile": "items.csv",
+  "allowCustomItems": false,
+  "cartExpiryHours": 24,
+  "spreadsheetFile": "data/orders.xlsx",
+  "ignoreNumbers": []
+}
